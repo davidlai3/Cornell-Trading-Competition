@@ -1,0 +1,18 @@
+STRATEGY IDEAS:
+
+	- Statistical arbitrage
+		- Develop weighted averages over previous 5 days
+		- Based on most previous closing price, buy/sell compared to weighted average
+
+	- Pairs trading
+		- Find stocks that are highly correlated
+		- Buy one, sell the other
+		- When they diverge, buy/sell to get back to equilibrium
+
+	- Momentum trading
+		- Buy stocks that are going up
+		- Sell stocks that are going down
+		- How to determine if a stock is going up or down?
+			- Use a moving average
+			- If current price is above moving average, buy
+			- If current price is below moving average, sell
